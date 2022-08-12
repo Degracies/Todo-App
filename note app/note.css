@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Poppins&family=Roboto:wght@100&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "poppins", sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 5rem;
+    text-align: center;
+    opacity: 0.4;
+    color: purple;
+}
+form{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    width: 400px;
+}
+.input{
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    display: block;
+}
+
+.input::placeholder{
+    color: black;
+}  
+.input:focus{
+    outline-color: purple;
+}
+.todos{
+    padding: 0;
+    margin: 0;
+    list-style-type: circle;
+}
+
+.todos li{
+    border-top: 1px solid white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}
+.todos li.completed{
+    color: #a58686b6;
+    text-decoration: line-through;
+}
+
+small{
+    color: #9b8f8fb5;
+    margin-top: 3rem;
+    text-align: center;
+}
+/* .add{
+    background-color: #9ec862;
+    margin: 2rem auto;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 0.5rem 1rem;
+    top: 1rem;
+    right: 1rem;
+}
+.notes {
+    background-color: whitesmoke;
+    margin: 20px;
+    height: 400px;
+    width: 400px;
+}
+.notes .tools{
+    background-color: #9ec862;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.notes .tools button{
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+.notes .main{
+    background-color: white;
+    overflow: hidden;
+    height: 400%;
+    width: 100%;
+}
+
+.notes textarea{
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height: 400%;
+    width: 100%;
+}
+
+.notes .hidden{
+    display: none;
+} */
